@@ -1,0 +1,110 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0F2D40;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: 'Marvel', sans-serif;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 1.5em;
+  text-decoration: none;
+  letter-spacing: 0.4px;
+  padding-left:12px;
+  padding-right:30px; 
+
+}
+
+
+
+.home{
+    	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	background-image: url("../img/8.jpg");
+	height: 665px; 
+	width: 1333px;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%:  
+}
+
+.title{
+   float: center;
+   
+    font-size: 60px; 
+	text-align: center;
+	font-weight: 60%;
+	font-family: 'Marvel', sans-serif;
+}
+
+.outrafrase{
+  margin-top: -100px; 
+  background-color: #DB5756; 
+  background-size:  ; 
+  font-size: 500px;
+  font-family: 'Marvel', sans-serif;
+  color: white;
+  margin-left: 300px;
+  
+}
+
+h1{ 
+font-size: 90px;
+font-family: 'Marvel', sans-serif; 
+	font-weight: 75%;
+  color: white;
+}
+
+h2 {
+	font-size: 60px;
+	text-align: center;
+	font-weight: 75%;
+	font-family: 'Marvel', sans-serif;
+}
+
+.saboutus{
+   margin-top: 15px; 
+float: right;
+        font-family: 'Marvel', sans-serif;
+	font-size: 30px; 
+    margin-bottom: 1rem;
+    display: block;
+
+    text-align: justify;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.grid-template-rows-1 {
+     grid-template-rows: 50px 100px 50px 150px;
+	margin-left: 50px; 
+        margin-foot: 20px;
+}
+
+.grid-template-rows-2 {
+    grid-template-rows: 100px 100px;
+	margin-left: 50px;
+        margin-foot: 20px;
+}
+
+.grid-template-rows-3 {
+	margin-left: 50px;
+}
